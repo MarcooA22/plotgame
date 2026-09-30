@@ -1,0 +1,7 @@
+# Project owner
+* @MarcooA22
+
+# Security-sensitive repository infrastructure
+/.github/workflows/ @MarcooA22
+/.github/dependabot.yml @MarcooA22
+/SECURITY.md @MarcooA22
