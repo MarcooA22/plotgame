@@ -1,0 +1,28 @@
+name: Translation
+description: Add a language, improve an existing translation, or report localization problems.
+title: "[i18n] "
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: e.g. Portuguese (Brazil)
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Contribution type
+      options:
+        - New language
+        - Improve existing translation
+        - Localization bug
+        - Translation workflow idea
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true
