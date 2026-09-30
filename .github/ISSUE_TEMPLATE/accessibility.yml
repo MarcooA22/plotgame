@@ -1,0 +1,14 @@
+name: Accessibility / UX improvement
+description: Suggest an improvement that makes PlotGame easier to use or more accessible.
+title: "[Accessibility] "
+body:
+  - type: textarea
+    id: barrier
+    attributes:
+      label: What barrier or friction did you notice?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement
