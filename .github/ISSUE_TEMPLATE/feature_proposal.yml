@@ -1,0 +1,28 @@
+name: Feature or gameplay proposal
+description: Propose a mechanic, mode, system, UX improvement, or product idea before building it.
+title: "[Proposal] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem or opportunity do you see?
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: What should the player experience?
+      description: Describe behavior, not only implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: fit
+    attributes:
+      label: Why does this fit PlotGame?
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Trade-offs, alternatives, or open questions
+      description: Optional.
