@@ -1,0 +1,23 @@
+name: Bug report
+description: Something in PlotGame is broken or behaves unexpectedly.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Tell us what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it?
+      description: Include the level, expression, steps, browser/device, or anything else that helps.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot / recording / console output
+      description: Optional, but very helpful.
